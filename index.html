@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link href='style.css' rel='stylesheet'>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- bootstap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+
+    <!-- search section -->
+    <section class='jumbotron'> 
+
+        <section class='container'>
+            <div class='row'>
+                <div class="col" id='search'>
+                    <h2>Search for a City</h2>
+                    <input type='search' id='keyTerm'>
+                    <button id='searchBtn'>Enter</button>
+                    
+                </div>
+            </div>    
+        </section>  
+
+        <br>
+
+        <div>
+            <div class="col-md-12" id='current-weather'>
+                <div id='searched-city'></div>
+                <div id="image-div"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class='container d-flex'>
+        <div class='row mx-auto ' id='forecast-output'>
+
+        </div>
+    </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src='script.js'></script>
+</body>
+
+</html>

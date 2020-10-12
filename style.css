@@ -1,0 +1,41 @@
+h1{
+    background-color:rgb(37, 120, 148);
+    font-size: larger;
+    text-align: center;
+    color:white;
+    height:80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+body{
+    background-image: url("mckayla-crump-AjmBvSj_2IE-unsplash.jpg");
+    background-size: cover;
+}
+
+.jumbotron {
+    font-weight: bolder;
+    opacity: 40%;
+}
+
+.card{
+    text-align: center;
+    opacity: 85%;
+}
+
+#search{
+    text-align: center;
+    display:inline-block
+}
+
+#current-weather{
+    text-align: center;
+
+}
+
+.image-styling{
+    height:200px;
+    width:200px;
+    text-align: center;
+}
